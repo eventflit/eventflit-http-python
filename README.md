@@ -1,7 +1,5 @@
 # Eventflit HTTP Python Library
 
-[![Build Status](https://travis-ci.org/eventflit/eventflit-http-python.svg?branch=master)](https://travis-ci.org/eventflit/eventflit-http-python)
-
 The Python library for interacting with the Eventflit HTTP API. 
 This package lets you trigger events to your client and query the state of your Eventflit channels. When used with a server, you can validate Eventflit webhooks and authenticate private- or presence-channels.
 
@@ -158,7 +156,7 @@ Eventflit now allows sending native notifications to iOS and Android devices. Ch
 
 ### Sending native pushes
 
-The native notifications API is hosted at `nativepush-cluster1.eventflit.com` and only accepts https requests.
+The native notifications API is hosted at `push.eventflit.com` and only accepts https requests.
 
 You can send pushes by using the `notify` method, either globally or on the instance. The method takes two parameters:
 
